@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include"Arith.h"
+int main()
+{
+	printf("Addition of two numbers:%d\n",add(20,10));
+	printf("Subtraction of two numbers:%d\n",sub(20,10));
+	printf("Multiplication of two numbers:%d\n",mul(20,10));
+	printf("Divison of two numbers:%d\n",div(20,10));
+	printf("Modulus of two numbers:%d\n",mod(20,10));
+	
+}
+
+
+
